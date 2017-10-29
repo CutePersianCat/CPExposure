@@ -1,0 +1,6 @@
+framework module CPExposure {
+  umbrella header "CPExposure-umbrella.h"
+
+  export *
+  module * { export * }
+}
