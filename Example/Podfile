@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CPExposure_Example' do
+  pod 'CPExposure', :path => '../'
+
+  target 'CPExposure_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
